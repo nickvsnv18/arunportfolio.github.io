@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="shortcut icon"
+      id="change"
+      href="./favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha384-... (the rest of the code)"
+      crossorigin="anonymous"
+    />
+
+    <title>Arun Vaishnav | Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="left">
+        <h2><a href="/"><img src="images/header.png" alt="this is header" class="logo-arun"></a></h2>
+      </div>
+      <nav class="navbar-right">
+        <ul class="nav-item">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#project">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <span class="indicator"></span>
+        </ul>
+      </nav>
+      <div class="menu-icon">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>
+
+    <section class="home hidden" id="home">
+      <div id="particles-js"></div>
+      <div class="content">
+        <h2>
+          Hello There,<br />I'm Arun <span class="color">Vaishnav</span>
+        </h2>
+        <br />
+        <h3>And I'm Into <span class="color" id="element"></span></h3>
+        <div class="about_me">
+          <a
+            href="#about"
+            class="btn"
+            style="
+              visibility: visible;
+              opacity: 1;
+              transform: matrix3d(
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              );
+              transition: all 0.5s ease 0s,
+                opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.2s,
+                transform 1s cubic-bezier(0.5, 0, 0, 1) 0.2s;
+            "
+          >
+            <span>About Me</span>
+            <i class="fas fa-arrow-down"></i>
+          </a>
+        </div>
+
+        <div class="socials">
+          <ul class="social-icons">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/arun-vaishnav-9bb895227"
+                target="_blank"
+                ><i class="fab fa-linkedin linkdin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/_nick_vsnv"
+                target="_blank"
+                ><i class="fab fa-instagram insta"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="image">
+        <img src="./images/Programming-amico.png" alt="programming_png" />
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- About Section Start -->
+
+    <section id="about" class="about-me hidden">
+      <h2 class="heading">
+        <i style="padding-right: 5px" class="fas fa-user"></i>
+        About <span class="color">Me</span>
+      </h2>
+
+      <div class="profile">
+        <div class="my_img">
+          <img
+            class="img"
+            src="./images/arun.jpg"
+            style="
+              will-change: transform;
+              transform: perspective(1000px) rotateX('0deg') rotateY('0deg')
+                scale(1, 1, 1);
+            "
+            alt="My_profile_picture"
+          />
+        </div>
+        <div class="content">
+          <h2>I'm Arun</h2>
+          <h4>Full Stack Developer</h4>
+          <p>
+            Hello,Welcome to my Work Portfolio! I am Arun Vaishnav, a motivated and detail-oriented individual currently
+            graduate from B.sc Computer Science in IT from Sarvajanik University Gujarat. 
+            I have a versatile knowledge of Python, Flutter, Php and a strong interest 
+            in Wordpress & Flutter.
+            I thrive on
+            crafting dynamic and user-friendly web applications. My love for
+            coding extends to exploring new frameworks, languages, and staying
+            updated with the latest industry trends. I find joy in turning ideas
+            into reality, solving complex problems.
+          </p>
+
+          <div class="box">
+            <p>
+              <span>Email : </span
+              ><a href="mailto:vsishnavarun@gmail.com"
+                >vsishnavarun@gmail.com</a
+              >
+            </p>
+            <p>
+              <span>Location : </span>
+              Surat , Gujarat 395010
+            </p>
+          </div>
+
+          <div class="content-btn">
+            <a
+              href="https://drive.google.com/drive/folders/104ZHaRTt98IOq2dUh6yqu8d5SorIkNrd/"
+              target="_blank"
+              >Resume<i class="fas fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Ends -->
+
+    <hr />
+
+    <!-- Skill's Section Start -->
+
+    <section id="skills" class="my-skills hidden">
+      <h2 class="heading">
+        <i class="fas fa-code"></i>
+        Skills & <span class="color">Abilities</span>
+      </h2>
+
+      <div class="container">
+        <div class="imgs">
+          <img src="./images/Skills/html-5--v1.png" alt="img_1" />
+          <h2>HTML</h2>
+        </div>
+        <div class="imgs">
+          <img src="./images/Skills/css3.png" alt="img_1" />
+          <h2>Css</h2>
+        </div>
+        <div class="imgs">
+          <img src="./images/Skills/javascript--v1.png" alt="img_1" />
+          <h2>javascript</h2>
+        </div>
+        <div class="imgs">
+          <img src="./images/Skills/php-logo.png" alt="img_1" />
+          <h2>PHP</h2>
+        </div>
+        <div class="imgs">
+          <img src="./images/Skills/java-coffee-cup-logo--v1.png" alt="img_1" />
+          <h2>Java</h2>
+        </div>
+        <div class="imgs">
+          <img src="./images/Skills/mysql-logo.png" alt="img_1" />
+          <h2>MySql</h2>
+        </div>
+        <div class="imgs">
+          <img src="./images/Skills/mongodb.png" alt="img_1" />
+          <h2>MongoDB</h2>
+        </div>
+        <div class="imgs">
+          <img src="./images/Skills/git.png" alt="img_1" />
+          <h2>Git</h2>
+        </div>
+        <div class="imgs">
+          <img src="./images/Skills/github.png" alt="img_1" />
+          <h2>Github</h2>
+        </div>
+        <div class="imgs">
+          <img src="./images/Skills/python.png" alt="img_1" />
+          <h2>Python</h2>
+        </div>
+        <div class="imgs">
+          <img src="./images/Skills/android.png" alt="img_1" />
+          <h2>Android</h2>
+        </div>
+        <div class="imgs">
+          <img src="./images/Skills/c++.png" alt="img_1" />
+          <h2>C++</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skill's Section End -->
+
+    <!-- Education Section Start -->
+
+    <hr />
+
+    <section id="education" class="education hidden">
+      <h2 class="heading">
+        <i class="fas fa-graduation-cap"></i>
+        My <span class="color">Education</span>
+      </h2>
+
+      <div class="main_edu">
+        <div class="fr_row">
+          <img src="./images/srki.jpeg" alt="jp_img" />
+          <div class="content">
+            <h2> Shree Ramkrishna Institute of Computer Education and Applied Sciences</h2>
+            <p>
+              Completed Bacholors in Computer Science. Throughout my
+              academic journey, I have gained a strong foundation in computer
+              programming.
+            </p>
+            <p><b>2020 - 2023</b></p>
+          </div>
+        </div>
+
+        <div class="fr_row">
+          <img src="./images/samrat.jpg" alt="vtp_img" />
+          <div class="content">
+            <h2>Samrat International School</h2>
+            <p>
+              The HSC Math Science curriculum encompasses a wide range of subjects,
+              including mathematics, physics, chemistry. 
+            </p>
+            <p><b>2017-2019</b></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Project Section  Start-->
+
+    <section id="project" class="project hidden">
+      <h2 class="heading">
+        <i class="fas fa-graduation-cap"></i>
+        Explore <span class="color">Projects</span>
+      </h2>
+
+      <div class="container_project">
+        <div class="card">
+          <img
+            src="./images/alumni.png"
+            alt="alumni"
+          />
+          <h1>Alumni Management</h1>
+          <p>
+            Working on Alumni Management website with all filter and search fetures
+            with admin dashboard with all controlls
+          </p>
+
+        </div>
+        <div class="card">
+          <img src="./images/portfloio.png" alt="5am" />
+          <h1>Portfolio</h1>
+          <p>
+            Portfolio website created in HTML CSS and simple Javascript.
+          </p>
+          <div>
+            <button>
+              <a
+                href="https://arunworkportfolio.netlify.app/"
+                target="_balnk"
+              >
+                <i class="fas fa-code"></i>Code</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section End -->
+
+    <hr />
+    <!-- Contact Section  -->
+    <section id="contact" class="contact hidden">
+      <h2 class="heading">
+        <i class="fas fa-envelope"></i>
+        Contact <span class="color">Me</span>
+      </h2>
+
+      <div class="main-contect">
+        <div class="contact-left">
+          <img src="./images/Mention.png" alt="contect" />
+        </div>
+        <div class="contact-right">
+          <h4>Get In Touch</h4>
+          <p>
+            My inbox is always open, so if you have any queries please feel free
+            to contact me..
+          </p>
+          <form action="https://formspree.io/f/xpzgzzvq"
+          method="POST" class="form">
+            <input
+              type="text"
+              class="name"
+              name="name"
+              id="name"
+              autocomplete="off"
+              placeholder="Enter Your Name:"
+            />
+            <input
+              type="email"
+              name="email"
+              class="email"
+              autocomplete="off"
+              id="email"
+              placeholder="Enter Your Email"
+            />
+            <textarea
+              name="message"
+              id="text-box"
+              class="message"
+              autocomplete="off"
+              cols="30"
+              placeholder="Drop your message here"
+              rows="10"
+            ></textarea>
+            <div>
+              <button  type="submit">Send</button>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer_1">
+        <h2>Arun's Portfolio</h2>
+        <p>
+          Thank you so much for visiting my portfolio website if you have any
+          queries please fill free to contect me.
+        </p>
+        <p style="margin-top: 1rem">Get in touch with me on my social.</p>
+      </div>
+      <div class="footer_2">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer_3">
+        <h2>Contect Me</h2>
+        <ul>
+          <li>
+            <i style="padding-right: 10px" class="fas fa-phone"></i>+91
+            XXX-XXX-XXXX
+          </li>
+          <li>
+            <i style="padding-right: 10px" class="fas fa-envelope"></i
+            >vsishnavarun@gmail.com
+          </li>
+        </ul>
+        <div class="media">
+          <a
+            href="https://www.linkedin.com/in/arun-vaishnav-9bb895227"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/_nick_vsnv/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a href="mailto:vsishnavarun@gmail.com" target="_blank">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <hr />
+    <div class="credit">
+      <h4>
+        Designed With <i class="fas fa-heart"></i> By
+        <a href="https://www.linkedin.com/in/arun-vaishnav-9bb895227"
+          ><span class="color">Arun Vaishnav</span></a
+        >
+      </h4>
+    </div>
+    <!-- Education Section End -->
+
+    <!-- Cdn File for type Script -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Cdn file for vanilla-js -->
+    <script type="text/javascript" src="./js/vanilla-tilt.js"></script>
+    <!-- Cdn file for sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("WjosumEdLTTFopMg8");
+      })();
+    </script>
+
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
