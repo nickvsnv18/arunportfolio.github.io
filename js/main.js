@@ -33,7 +33,7 @@ window.onscroll = () => {
 
 // For Type animation
 var typed = new Typed("#element", {
-  strings: ["Web Development", "Front-End Development", "Wordpress Development"],
+  strings: ["Flutter Developer", "Front-End Development", "Web Development"],
   typeSpeed: 80,
   loop: true,
 });
